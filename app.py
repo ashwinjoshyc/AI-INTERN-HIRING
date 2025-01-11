@@ -3,7 +3,7 @@ import streamlit as st
 from typing import List, Dict
 
 # Initialize Groq client
-groq_client = groq.Groq(api_key="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")
+groq_client = groq.Groq(api_key="api")
 
 class HiringAssistant:
     def __init__(self):
